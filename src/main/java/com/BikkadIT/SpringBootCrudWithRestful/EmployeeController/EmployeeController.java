@@ -2,21 +2,23 @@ package com.BikkadIT.SpringBootCrudWithRestful.EmployeeController;
 
 import java.util.List;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.BikkadIT.SpringBootCrudWithRestful.model.Employee;
 
-@Controller
+@RestController
 public class EmployeeController
 {   
 	
-    public Employee addEmployee(Employee employee)
+    public ResponseEntity<Employee> addEmployee(Employee employee)
     {
 		return null;
     	
     }
     
-    public List<Employee>  getAllEmployee()
+    public ResponseEntity<List<Employee>>  getAllEmployee()
     {
 		return null;
     	
