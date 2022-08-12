@@ -3,7 +3,6 @@ package com.BikkadIT.SpringBootCrudWithRestful.EmployeeController;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.BikkadIT.SpringBootCrudWithRestful.model.Employee;
