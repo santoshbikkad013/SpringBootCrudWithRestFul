@@ -10,4 +10,6 @@ public interface DaoI {
 	
 	
 
+	public Employee addEmployee(Employee employee);
+	public List<Employee> getAllEmployee();
 }
